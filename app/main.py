@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import produtos
+from app.routers import produto
 from app.database import create_db_and_tables
 
 app = FastAPI(title="API de Produtos - FastAPI + Render")
@@ -8,7 +8,7 @@ app = FastAPI(title="API de Produtos - FastAPI + Render")
 def on_startup():
     create_db_and_tables()
 
-app.include_router(produtos.router)
+app.include_router(produto.router)
 
 @app.get("/")
 def home():
