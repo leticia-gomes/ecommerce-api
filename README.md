@@ -191,7 +191,7 @@ A API possui atualmente a entidade **Produto**.
 ## Clone o repositório
 
 ```bash
-git clone https://github.com/leticia-gomes/webinar-fastapi-ecommerce-api.git
+git clone https://github.com/leticia-gomes/fastapi-ecommerce-api.git
 ```
 
 Entre na pasta:
